@@ -99,9 +99,13 @@ setup_opam () {
     OCAML_VERSION="4.02.3"
 
     opam init --compiler=$OCAML_VERSION -j $NCPU --no-setup --yes
+<<<<<<< f6837490891812ddeac69902816db1813ff4bdcd
 
     OPAMSWITCH=infer-$OCAML_VERSION
     opam switch set -j $NCPU $OPAMSWITCH --alias-of $OCAML_VERSION
+=======
+#    opam switch set -j $NCPU $INFER_OPAM_SWITCH --alias-of $OCAML_VERSION
+>>>>>>> update pom
 }
 
 add_opam_git_pin () {
