@@ -20,11 +20,7 @@
     <connection>scm:git:git@github.com:sblackshear/infer-1.git</connection>
     <developerConnection>scm:git:git@github.com:sblackshear/infer-1.git</developerConnection>
     <url>https://github.com/sblackshear/infer-1/</url>
-<<<<<<< f6837490891812ddeac69902816db1813ff4bdcd
-    <tag>infer-annotation-0.10.0.2</tag>
-=======
     <tag>infer-annotation-0.11.0</tag>
->>>>>>> update pom
   </scm>
 
   <developers>
